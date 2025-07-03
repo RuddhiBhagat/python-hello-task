@@ -2,6 +2,7 @@
 name: Python Hello World Workflow
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main  # Trigger the workflow on push to the main branch
